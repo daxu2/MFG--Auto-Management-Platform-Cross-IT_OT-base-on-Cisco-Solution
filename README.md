@@ -39,7 +39,7 @@ Business Summary:
 
 ![IO/OT_Asset_management](https://github.com/daxu2/MFG--Auto-Management-Platform-Cross-IT_OT-base-on-Cisco-Solution/blob/main/images/outcome-asset-management.jpeg)
 ![Factory_ENV_monitor](https://github.com/daxu2/MFG--Auto-Management-Platform-Cross-IT_OT-base-on-Cisco-Solution/blob/main/images/outcome-OT_ENV_monitor.jpeg)
-![Protective Operation](https://github.com/daxu2/MFG--Auto-Management-Platform-Cross-IT_OT-base-on-Cisco-Solution/blob/main/images/outcome-OT_ENV_monitor.jpeg)
+![Protective Operation](https://github.com/daxu2/MFG--Auto-Management-Platform-Cross-IT_OT-base-on-Cisco-Solution/blob/main/images/outcome-ops.jpeg)
 
 # Topology For This Test
 
