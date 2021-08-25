@@ -91,43 +91,17 @@ Module 3:dnac_data-adapt.js :
 
 # Licensing info
 
-A license is required for others to be able to use your code. An open source license is more than just a usage license, it is license to contribute and collaborate on code. Open sourcing code and contributing it to Code Exchange or Automation Exchange requires a commitment to maintain the code and help the community use and contribute to the code.
+These terms govern this Cisco Systems, Inc. (“Cisco”), example or demo source code and its associated documentation (together, the “Sample Code”). By downloading, copying, modifying, compiling, or redistributing the Sample Code, you accept and agree to be bound by the following terms and conditions (the “License”). If you are accepting the License on behalf of an entity, you represent that you have the authority to do so (either you or the entity, “you”). Sample Code is not supported by Cisco TAC and is not tested for quality or performance. This is your only license to the Sample Code and all rights not expressly granted are reserved.
 
-Choosing a license can be difficult and depend on your goals for your code, other licensed code on which your code depends, your business objectives, etc. This template does not intend to provide legal advise. You should seek legal counsel for that. However, in general, less restrictive licenses make your code easier for others to use.
+1. LICENSE GRANT: Subject to the terms and conditions of this License, Cisco hereby grants to you a perpetual, worldwide, non-exclusive, non-transferable, non-sublicensable, royalty-free license to copy and modify the Sample Code in source code form, and compile and redistribute the Sample Code in binary/object code or other executable forms, in whole or in part, solely for use with Cisco products and services. For interpreted languages like Java and Python, the executable form of the software may include source code and compilation is not required.
 
-    Cisco employees can find licensing options and guidance here.
+2. CONDITIONS: You shall not use the Sample Code independent of, or to replicate or compete with, a Cisco product or service. Cisco products and services are licensed under their own separate terms and you shall not use the Sample Code in any way that violates or is inconsistent with those terms (for more information, please visit: www.cisco.com/go/terms ).
 
-Once you have determined which license is appropriate, GitHub provides functionality that makes it easy to add a LICENSE file to a GitHub repo, either when creating a new repo or by adding to an existing repo.
+3. OWNERSHIP: Cisco retains sole and exclusive ownership of the Sample Code, including all intellectual property rights therein, except with respect to any third-party material that may be used in or by the Sample Code. Any such third-party material is licensed under its own separate terms (such as an open source license) and all use must be in full accordance with the applicable license. This License does not grant you permission to use any trade names, trademarks, service marks, or product names of Cisco. If you provide any feedback to Cisco regarding the Sample Code, you agree that Cisco, its partners, and its customers shall be free to use and incorporate such feedback into the Sample Code, and Cisco products and services, for any purpose, and without restriction, payment, or additional consideration of any kind. If you initiate or participate in any litigation against Cisco, its partners, or its customers (including cross-claims and counter-claims) alleging that the Sample Code and/or its use infringe any patent, copyright, or other intellectual property right, then all rights granted to you under this License shall terminate immediately without notice.
 
-When creating a repo through the GitHub UI, you can click on Add a license and select from a set of OSI approved open source licenses. See detailed instructions.
+4. LIMITATION OF LIABILITY: CISCO SHALL HAVE NO LIABILITY IN CONNECTION WITH OR RELATING TO THIS LICENSE OR USE OF THE SAMPLE CODE, FOR DAMAGES OF ANY KIND, INCLUDING BUT NOT LIMITED TO DIRECT, INCIDENTAL, AND CONSEQUENTIAL DAMAGES, OR FOR ANY LOSS OF USE, DATA, INFORMATION, PROFITS, BUSINESS, OR GOODWILL, HOWEVER CAUSED, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-Once a repo has been created, you can easily add a LICENSE file through the GitHub UI at any time. Simply select Create New File, type LICENSE into the filename box, and you will be given the option to select from a set of common open source licenses. See detailed instructions.
+5. DISCLAIMER OF WARRANTY: SAMPLE CODE IS INTENDED FOR EXAMPLE PURPOSES ONLY AND IS PROVIDED BY CISCO “AS IS” WITH ALL FAULTS AND WITHOUT WARRANTY OR SUPPORT OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, ALL EXPRESS AND IMPLIED CONDITIONS, REPRESENTATIONS, AND WARRANTIES INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, SATISFACTORY QUALITY, NON-INTERFERENCE, AND ACCURACY, ARE HEREBY EXCLUDED AND EXPRESSLY DISCLAIMED BY CISCO. CISCO DOES NOT WARRANT THAT THE SAMPLE CODE IS SUITABLE FOR PRODUCTION OR COMMERCIAL USE, WILL OPERATE PROPERLY, IS ACCURATE OR COMPLETE, OR IS WITHOUT ERROR OR DEFECT.
 
-Once you have created the LICENSE file, be sure to update/replace any templated fields with appropriate information, including the Copyright. For example, the 3-Clause BSD license template has the following copyright notice:
-
-Copyright (c) <YEAR>, <COPYRIGHT HOLDER>
-
-See the LICENSE for this template repo as an example.
-
-Once your LICENSE file exists, you can delete this section of the README, or replace the instructions in this section with a statement of which license you selected and a link to your license file, e.g.
-
-This code is licensed under the BSD 3-Clause License. See LICENSE for details.
-
-Some licenses, such as Apache 2.0 and GPL v3, do not include a copyright notice in the LICENSE itself. In such cases, a NOTICE file is a common place to include a copyright notice. For a very simple example, see NOTICE.
-
-In the event you make use of 3rd party code, it is required by some licenses, and a good practice in all cases, to provide attribution for all such 3rd party code in your NOTICE file. For a great example, see https://github.com/cisco/ChezScheme/blob/master/NOTICE.
-Best practices
-
-Information below can help you make your repo meet our requirements and be more useful to others.
-Good practices
-
-    Manage sensitive data for scripts. For example, store passwords/API keys and other sensitive data in env.py or parse it as arguments. In Python, you can use ConfigParser for applications and programs: encrypt sensitive data in your database.
-    Include in Installation section how to run your script for different OS like Windows/macOS/Linux
-    Print usage if you run script or program without any input data (support -h -help flags)
-    Catch an error and print useful information in console and interface
-    Add error management to handle if users miss some parameters or add them in the wrong format
-    Add links for resources where users can test code/app. For example, add links DevNet sandboxs (Always-on or reservable). You can find a list of all available sandboxes here https://devnetsandbox.cisco.com/RM/Topology
-    Add links where users can download and how to install additional soft/app/libraries that are needed to run your code. For example, installer for Python, node, etc.
-    Add NOTICE file with copyright if you use GPLv3 or Apache 2.0 license (sample)
-    Dockerize app or part of an app, like a server/client
+6. GENERAL: This License shall be governed by and interpreted in accordance with the laws of the State of California, excluding its conflict of laws provisions. You agree to comply with all applicable United States export laws, rules, and regulations. If any provision of this License is judged illegal, invalid, or otherwise unenforceable, that provision shall be severed and the rest of the License shall remain in full force and effect. No failure by Cisco to enforce any of its rights related to the Sample Code or to a breach of this License in a particular situation will act as a waiver of such rights. In the event of any inconsistencies with any other terms, this License shall take precedence.
 ![image](https://user-images.githubusercontent.com/31427568/130733277-aac9ed31-867f-424f-ad3f-11dc9ca7a5bb.png)
