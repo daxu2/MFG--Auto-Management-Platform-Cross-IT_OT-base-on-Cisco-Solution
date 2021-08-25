@@ -1,0 +1,33 @@
+This Example Code is composed with 3 moduel.
+
+Module 1:cyber vision_data-adapt.py:
+
+install Python3 on Application Server
+
+Copy cyber vision_data-adapt.py to Application Server folder
+
+sudo pip3 install requests
+
+4）run the code python3 Cyber vision data-adapt.py -token ics-e8fbcfb8cd54c6d70fba097b208f5115d5957c99-dbdd29d584c19dd2a37c8e71ee72a8310f74a586 -i 172.16.63.248 -t 1 -c 1, -token is cyber vison token ,'172.16.63.248' is cyber vison IP address, -t is mean how many minute to get data from dnac once,'-c' is mean how many time you want to retrieve data from cyber vison,if =0 mean,this will run for ever.
+
+Module 2:dnac_data-adapt.py :
+
+install Python3 on Application Server
+
+Copy assurnace_haixin.py to Application Server folder
+
+under same folder,you need to create clientdata and devicedata floder
+
+sudo pip3 install requests
+
+5）run the code python3 dnac_data-adapt.py -u admin -p Cisc0123 -i 172.16.63.248 -t 1 -c 1, 'admin is DNAC username,'Cisc0123' is DNAC password,'172.16.63.248' is DNAC IP address, -t is mean how many minute to get data from dnac once,'-c' is mean how many time you want to retrieve data from DNAC,if =0 mean,this will run for ever.
+
+Module 3:dnac_data-adapt.js :
+
+install Python3 on Application Server
+
+Copy dnac_data-adapt.py to Application Server folder
+
+sudo pip3 install requests
+
+4）run the code python3 dnaspace_data-adapt.py -token eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhcHBJZCI6ImFwcC00OTA5RTY1RUYyOEE0MkQzQTQ2QzE4MEVGRjA2QjBFNiIsInZlcnNpb24iOiJ2MSIsImFjdGl2YXRpb25SZWZJZCI6IkJDMDgyOUQ1QzYxMDQzQTVCNzFCNDEzMDE1RjY3OTJFIiwiY3VzdG9tZXIiOiJFdGhhblpob3UiLCJleHBpcmVzSW4iOjE2MjI0MzI2MDE3MDcsInRlbmFudElkIjoxMDA1MSwiYmFzZVVybCI6Imh0dHBzOi8vcGFydG5lcnMuZG5hc3BhY2VzLmlvIiwicGFydG5lclRlbmFudElkIjoiNTJFM0E4QkU3Nzk4NDY1ODg0RUYxOUZEMzk4RkEyRjMiLCJpYXQiOjE2MjI0MjkwMDEsImV4cCI6MTYyMjQzMjYwMX0.JQs3h-qQ8fGQ97ERNLBiNHn-mT_7pYFzBPd3k1YGpNH3Q1gjMJYOBq8cvRipe7B3phFk7h8Ho9wcxjvgngp-_ichxrSn1hF3Vr1Ohhg-DMtoXx3dxRZK8S3A2Qej6_TEZScfxDm47RV8uUugXogV7sjaQJt0t8-sF6r3Lu2NGoM -appid app-4909E65EF28A42D3A46C180EFF06B0E6 -refid BC0829D5C61043A5B71B413015F6792E -t 1 -c 1, -token is dna space token,-appid is you new appkication id create on dna space -t is mean how many minute to get data from dnac once,'-c' is mean how many time you want to retrieve data from DNAC,if =0 mean,this will run for ever.
